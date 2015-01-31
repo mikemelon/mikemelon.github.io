@@ -10,13 +10,25 @@
 		}
 		header{
 			font: 3em bold Arial,SimHei;
+			text-shadow: 1px 1px 1px #111,
+						 2px 2px 2px #222,
+						 3px 3px 3px #333,
+						 4px 4px 4px #444;
 			margin: 20px auto;
 			text-align: center;
 			color: #dddd88;
+			
+		}
+		header span{
+			transition: all .5s ease;
+		}
+		header span:hover{
+			cursor: pointer;
+			letter-spacing: 10px;
 		}
 	</style>
 </head>
 <body>
-	<header>欢迎来访</header>
+	<header><span>欢迎来访</span></header>
 </body>
 </html>
